@@ -1,0 +1,28 @@
+.topnav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 2.5em;
+}
+.logo img{
+    width: 1.5625em;
+    height: auto;
+}
+ul.topnav__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+li.topnav__item{
+    list-style: none;
+}
+.nav-icon{
+    font-size: 1.5625em;
+    color: #fff;
+    margin: 1.3em;
+}
+.hamburger__icon{
+    color: #fff;
+    font-size: 1.5625em;
+    font-weight: bold;
+}
