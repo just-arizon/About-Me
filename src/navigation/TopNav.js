@@ -3,7 +3,6 @@ import "./TopNav.css";
 import { Icon } from '@iconify/react';
 import myLogo from '../images/Group 4.svg';
 
-
 function TopNavbar() {
   return (
     <div className='topnav'>
@@ -13,23 +12,23 @@ function TopNavbar() {
       <div className='topnav__buttons'>
          <ul className='topnav__wrapper'>
            <li className='topnav__item'>
-            <a href='' className='nav-icon'>
+            <a href='https://github.com/just-arizon' className='nav-icon'>
             <Icon icon="line-md:github-loop" />
             </a>
             </li>
            <li className='topnav__item'>
-            <a href='' className='nav-icon'>
+            <a href='https://www.linkedin.com/in/arinze-calistus/' className='nav-icon'>
            <Icon icon="line-md:linkedin" />
             </a>
             </li>
            <li className='topnav__item'>
-            <a href='' className='nav-icon'>
+            <a href='https://twitter.com/just_Arizon' className='nav-icon'>
            <Icon icon="line-md:twitter" />
             </a>
             </li>
          </ul>
       </div>
-      <div className='hamburger' id='#tour-example'>
+      <div className='hamburger'>
         <Icon icon="solar:hamburger-menu-broken" className='hamburger__icon'/>
       </div>
     </div>
