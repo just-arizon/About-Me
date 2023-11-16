@@ -5,7 +5,7 @@
     background: linear-gradient(
       180deg,
       rgba(35, 30, 35, 1) 0%,
-      rgba(37, 37, 37, 1) 50%,
+      #252525 50%,
       #00d8c9 100%
     );
 }
