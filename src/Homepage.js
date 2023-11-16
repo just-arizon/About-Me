@@ -2,7 +2,7 @@ import React from 'react';
 import "./Homepage.css";
 import TopNav from './navigation/TopNav';
 import BottomNav from './navigation/BottomNav';
-import Dashboard from './navigation/timeline/Dashboard';
+import Dashboard from './timeline/Dashboard';
 
 function Homepage() {
   return (

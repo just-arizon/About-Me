@@ -16,6 +16,19 @@
     top: 1.9em;
     z-index: 1;
 }
+.svg__doodle{
+    width: 100%;
+    position: relative;
+    top: 3em;
+    display: flex;
+    justify-content: end;  
+}
+.svg__doodle--2{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: start;  
+}
 .image__circle{
     width: 50px;
     height: 50px;
@@ -47,6 +60,7 @@ p > span{
     display: flex;
     margin-top: 1em;
     flex-wrap: wrap;
+    /* border-top: 1px solid #00d8c9; */
 }
 .iconify.toolkits {
     font-size: 25px;
@@ -73,3 +87,9 @@ p > span{
     box-shadow: 0 0 #fffbfa;
     top: 5px;
   }
+  @media(max-width: 480px){
+    .svg__doodle{
+        top: 5em;
+      
+    }
+}
