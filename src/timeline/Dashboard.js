@@ -2,23 +2,28 @@ import React from "react";
 import "./Dashboard.css";
 import { Icon } from '@iconify/react';
 import svgDoodle from '../images/svg-doodle.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 function dashboard() {
   return (
     <div className="dashboard__component">
-                <div class="svg__doodle"><img src={svgDoodle} alt='logo'/></div>
+                <div class="svg__doodle"data-aos="flip-right"><img src={svgDoodle} alt='logo'/></div>
       <div className="dash__timeline">
         <div className="dash__profile--img">
         {/* <div className="svg">
             <img src={svgDoodle} alt='logo'/>
             </div> */}
-          <div class="image__circle">
+          <div class="image__circle" data-aos="flip-right">
             <img src="" />
             </div>
             <div className="svg">
   
             </div>
         </div>
-        <div className="dash__profile">
+        <div className="dash__profile"data-aos="fade-up"
+     data-aos-duration="2000">
           <div className="dash__profile--text">
             <p><span>Hello</span>, I’m Arinze 
             <br/>
@@ -50,7 +55,7 @@ function dashboard() {
           </div>
         </div>
       </div>
-      <div class="svg__doodle--2"><img src={svgDoodle} alt='logo'/></div>
+      <div class="svg__doodle--2 "data-aos="flip-left"><img src={svgDoodle} alt='logo'/></div>
     </div>
   );
 }
