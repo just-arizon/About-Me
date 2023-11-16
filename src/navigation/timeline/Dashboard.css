@@ -1,6 +1,6 @@
 .dashboard__component{
     width: 100%;
-    height: 30%;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: end;
     position: relative;
-    top: 1.5em;
+    top: 1.9em;
     z-index: 1;
 }
 .image__circle{
@@ -36,8 +36,40 @@
 .dash__profile--text{
     padding: 1em;
     color: #fff;
+    text-align: center;
 }
 p > span{
     color: #00d8c9;
     font-weight: bold;
 }
+
+.stacks{
+    display: flex;
+    margin-top: 1em;
+    flex-wrap: wrap;
+}
+.iconify.toolkits {
+    font-size: 25px;
+    margin: .3em;
+    color: #ddd;
+    padding: 2px 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #231e23;
+    box-shadow: 0 5px #00d8c9;
+  }
+  .iconify.toolkits:hover {
+    box-shadow: 0 3px #fffbfa;
+    top: 1px;
+    color: #00d8c9;
+  }
+  .iconify.toolkits:active {
+    box-shadow: 0 0 #fffbfa;
+    top: 5px;
+  }
