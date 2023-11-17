@@ -9,7 +9,7 @@ AOS.init();
 function dashboard() {
   return (
     <div className="dashboard__component">
-                <div class="svg__doodle"data-aos="flip-right"><img src={svgDoodle} alt='logo'/></div>
+                <div class="svg__doodle"><img src={svgDoodle} alt='logo' data-aos="flip-right"/></div>
       <div className="dash__timeline">
         <div className="dash__profile--img">
         {/* <div className="svg">
@@ -55,7 +55,10 @@ function dashboard() {
           </div>
         </div>
       </div>
-      <div class="svg__doodle--2 "data-aos="flip-left"><img src={svgDoodle} alt='logo'/></div>
+      <div class="svg__doodle--2 ">
+        <img src={svgDoodle} alt='logo' data-aos="flip-left"/ >
+
+        </div>
     </div>
   );
 }
