@@ -3,6 +3,7 @@ import "./Homepage.css";
 import TopNav from './navigation/TopNav';
 import BottomNav from './navigation/BottomNav';
 import Dashboard from './timeline/Dashboard';
+import Scroller from './timeline/Swiper';
 
 
 function Homepage() {
@@ -10,7 +11,7 @@ function Homepage() {
     <div className='homepage'>
        <TopNav />
        <Dashboard />
-       {/* <Slider /> */}
+       <Scroller />
        <BottomNav />
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Dashboard.css";
 import "./Scroller.css";
-import "./Scroller";
+
 import { Icon } from '@iconify/react';
 import svgDoodle from '../images/svg-doodle.svg';
 import AOS from 'aos';
@@ -31,7 +31,7 @@ function dashboard() {
             <br/>
  A Front-End Developer with the following stacks
 </p>
-<div className="scroller">
+<div className="scroller"  data-speed="fast">
   <ul class="tag-list scrooler__inner">
     <li className="iconify toolkits">
     <Icon icon="material-symbols:javascript-rounded" />
