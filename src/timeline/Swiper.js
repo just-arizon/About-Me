@@ -10,7 +10,7 @@ import '../timeline/Swiper.css';
 
 
 // import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 
 export default function App() {
   return (
@@ -19,6 +19,10 @@ export default function App() {
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
+        autoplay={{
+          delay: 1500,
+          disableOnInteraction: false,
+        }}
         slidesPerView={'auto'}
         loop={true}
         coverflowEffect={{
@@ -29,7 +33,7 @@ export default function App() {
           slideShadows: true,
         }}
         pagination={false}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[Autoplay,EffectCoverflow, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
