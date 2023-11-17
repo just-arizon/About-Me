@@ -1,5 +1,7 @@
 import React from "react";
 import "./Dashboard.css";
+import "./Scroller.css";
+import "./Scroller";
 import { Icon } from '@iconify/react';
 import svgDoodle from '../images/svg-doodle.svg';
 import AOS from 'aos';
@@ -29,28 +31,30 @@ function dashboard() {
             <br/>
  A Front-End Developer with the following stacks
 </p>
-<div className="stacks">
-  <span className="iconify toolkits">
-  <Icon icon="material-symbols:javascript-rounded" />
-  </span>
-  <span className="iconify toolkits">
-  <Icon icon="ion:logo-sass" />
-  </span>
-  <span className="iconify toolkits">
-  <Icon icon="tabler:brand-bootstrap" />
-  </span>
-  <span className="iconify toolkits">
-  <Icon icon="cib:react" />
-  </span>
-  <span className="iconify toolkits">
-  <Icon icon="ic:outline-css" />
-  </span>
-  <span className="iconify toolkits">
-  <Icon icon="ph:file-html-fill" />
-  </span>
-  {/* <span className="iconify toolkits">
-  <Icon icon="cib:react" />
-  </span> */}
+<div className="scroller">
+  <ul class="tag-list scrooler__inner">
+    <li className="iconify toolkits">
+    <Icon icon="material-symbols:javascript-rounded" />
+    </li>
+    <li className="iconify toolkits">
+    <Icon icon="ion:logo-sass" />
+    </li>
+    <li className="iconify toolkits">
+    <Icon icon="tabler:brand-bootstrap" />
+    </li>
+    <li className="iconify toolkits">
+    <Icon icon="cib:react" />
+    </li>
+    <li className="iconify toolkits">
+    <Icon icon="ic:outline-css" />
+    </li>
+    <li className="iconify toolkits">
+    <Icon icon="ph:file-html-fill" />
+    </li>
+    <li className="iconify toolkits">
+    <Icon icon="cib:react" />
+    </li>
+  </ul>
 </div>
           </div>
         </div>
