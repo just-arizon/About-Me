@@ -11,7 +11,7 @@ AOS.init();
 function dashboard() {
   return (
     <div className="dashboard__component">
-                <div class="svg__doodle"><img src={svgDoodle} alt='logo' data-aos="flip-right"/></div>
+                {/* <div class="svg__doodle"><img src={svgDoodle} alt='logo' data-aos="flip-right"/></div> */}
       <div className="dash__timeline">
         <div className="dash__profile--img">
         {/* <div className="svg">
@@ -51,18 +51,18 @@ function dashboard() {
     <li className="iconify toolkits">
     <Icon icon="ph:file-html-fill" />
     </li>
-    <li className="iconify toolkits">
+    {/* <li className="iconify toolkits">
     <Icon icon="cib:react" />
-    </li>
+    </li> */}
   </ul>
 </div>
           </div>
         </div>
       </div>
-      <div class="svg__doodle--2 ">
+      {/* <div class="svg__doodle--2 ">
         <img src={svgDoodle} alt='logo' data-aos="flip-left"/ >
 
-        </div>
+        </div> */}
     </div>
   );
 }
