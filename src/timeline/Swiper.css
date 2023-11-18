@@ -22,9 +22,9 @@ body {
 }
 
 .swiper-slide {
-  /* background-position: center;
-  background-size: cover; */
-  width: 150px;
+  background-position: center;
+  background-size: cover;
+  width: 200px;
   border-radius: 15px;
 
 }
@@ -42,7 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Satisfy', cursive;
-    color: #ffbd44;
+    color: #00d8c9;
     font-size: 1.5em;
    }
    

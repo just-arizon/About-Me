@@ -3,7 +3,6 @@ import "./Dashboard.css";
 import "./Scroller.css";
 
 import { Icon } from '@iconify/react';
-import svgDoodle from '../images/svg-doodle.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -17,8 +16,9 @@ function dashboard() {
         {/* <div className="svg">
             <img src={svgDoodle} alt='logo'/>
             </div> */}
-          <div class="image__circle" data-aos="flip-right">
-            <img src="" />
+          <div class="image__circle" data-aos="flip-right"
+          data-aos-delay="2000">
+            
             </div>
             <div className="svg">
   

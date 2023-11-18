@@ -20,7 +20,7 @@ export default function App() {
         grabCursor={true}
         centeredSlides={true}
         autoplay={{
-          delay: 1500,
+          delay: 2000,
           disableOnInteraction: false,
         }}
         slidesPerView={'auto'}
@@ -35,6 +35,10 @@ export default function App() {
         pagination={false}
         modules={[Autoplay,EffectCoverflow, Pagination]}
         className="mySwiper"
+        data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="3000"
+     data-aos-offset="0"
       >
         <SwiperSlide>
         <div class="card">
@@ -123,6 +127,24 @@ export default function App() {
   </div>
   <div class="card__content">
     Verify Mall
+  </div>
+</div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div class="card">
+  <div class="tools">
+    <div class="circle">
+      <span class="red box"></span>
+    </div>
+    <div class="circle">
+      <span class="yellow box"></span>
+    </div>
+    <div class="circle">
+      <span class="green box"></span>
+    </div>
+  </div>
+  <div class="card__content">
+    Omni Gpt
   </div>
 </div>
         </SwiperSlide>

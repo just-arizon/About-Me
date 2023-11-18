@@ -33,8 +33,10 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #000;
-    border: 5px solid #00d8c9;
+    background-image: url(../images/profile.png);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #00d8c9;
 }
 .dash__profile{
     /* width: 100px;
