@@ -6,11 +6,11 @@ import myLogo from '../images/Group 4.svg';
 function TopNavbar() {
   return (
     <div className='topnav'>
-      <div className='logo third-step'>
+      <div className='logo'>
         <img src={myLogo} alt='logo'/>
       </div>
       <div className='topnav__buttons'>
-         <ul className='topnav__wrapper  fourth-step'>
+         <ul className='topnav__wrapper'>
            <li className='topnav__item'>
             <a href='https://github.com/just-arizon' className='nav-icon'>
             <Icon icon="line-md:github-loop" />
@@ -28,7 +28,7 @@ function TopNavbar() {
             </li>
          </ul>
       </div>
-      <div className='hamburger fifth-step'>
+      <div className='hamburger'>
         <Icon icon="solar:hamburger-menu-broken" className='hamburger__icon'/>
       </div>
     </div>
