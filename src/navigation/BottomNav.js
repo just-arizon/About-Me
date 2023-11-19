@@ -6,11 +6,11 @@ import { useTour } from '@reactour/tour'
 function BottomNav() {
   return (
     <div className='bottomnav'>
-       <div className='logo'>
+       <div className='logo third-step'>
         <img src={myLogo} alt='logo'/>
       </div>
       <div className='bottomnav__buttons'>
-         <ul className='bottomnav__wrapper'>
+         <ul className='bottomnav__wrapper fourth-step'>
            <li className='bottomnav__item'>
             <a href='https://github.com/just-arizon' className='nav-icon'>
             <Icon icon="line-md:github-loop" />
@@ -28,7 +28,7 @@ function BottomNav() {
             </li>
          </ul>
       </div>
-      <div className='hamburger second-step'>
+      <div className='hamburger fifth-step'>
         <Icon icon="solar:hamburger-menu-broken" className='hamburger__icon'/>
       </div>
     </div>

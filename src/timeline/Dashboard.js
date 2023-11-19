@@ -12,7 +12,7 @@ function Dashboard() {
   return (
     <div className="dashboard__component ">
                 {/* <div class="svg__doodle"><img src={svgDoodle} alt='logo' data-aos="flip-right"/></div> */}
-      <div className="dash__timeline first-step">
+      <div className="dash__timeline">
         <div className="dash__profile--img" onClick={() => setIsOpen(true)}>
         {/* <div className="svg">
             <img src={svgDoodle} alt='logo'/>
@@ -25,7 +25,7 @@ function Dashboard() {
   
             </div>
         </div>
-        <div className="dash__profile"data-aos="fade-up"
+        <div className="dash__profile first-step"data-aos="fade-up"
      data-aos-duration="2000">
           <div className="dash__profile--text">
             <p><span>Hello</span>, I’m Arinze 
