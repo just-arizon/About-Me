@@ -7,6 +7,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import '../timeline/Swiper.css';
+import "./Dashboard.css";
 
 
 // import required modules
@@ -55,7 +56,8 @@ export default function App() {
     </div>
   </div>
   <div class="card__content">
-    Instagram Clone
+    <div>Instagram Clone</div>
+    <button className='content__btn'>Visit</button>    
   </div>
 </div>
         </SwiperSlide>
@@ -73,7 +75,8 @@ export default function App() {
     </div>
   </div>
   <div class="card__content">
-    Instagram Clone
+    <div>Instagram Clone</div>
+    <button className='content__btn'>Visit</button>
   </div>
 </div>
         </SwiperSlide>
@@ -91,7 +94,8 @@ export default function App() {
     </div>
   </div>
   <div class="card__content">
-    Twitter Clone
+    <div>Twitter Clone</div>
+    <button className='content__btn'>Visit</button>
   </div>
 </div>
         </SwiperSlide>
@@ -109,7 +113,8 @@ export default function App() {
     </div>
   </div>
   <div class="card__content">
-    Twitter Clone
+    <div>Twitter Clone</div>
+    <button className='content__btn'>Visit</button>
   </div>
 </div>
         </SwiperSlide>
@@ -127,7 +132,8 @@ export default function App() {
     </div>
   </div>
   <div class="card__content">
-    Verify Mall
+    <div>Verify Mall</div>
+    <button className='content__btn'>Visit</button>
   </div>
 </div>
         </SwiperSlide>
@@ -145,7 +151,8 @@ export default function App() {
     </div>
   </div>
   <div class="card__content">
-    Omni Gpt
+    <div>Omni Gpt</div>
+    <button className='content__btn'>Visit</button>
   </div>
 </div>
         </SwiperSlide>
@@ -163,7 +170,8 @@ export default function App() {
     </div>
   </div>
   <div class="card__content">
-    Omni Gpt
+    <div>Omni Gpt</div>
+    <button className='content__btn'>Visit</button>
   </div>
 </div>
         </SwiperSlide>
