@@ -11,12 +11,12 @@ function Dashboard() {
   const { setIsOpen } = useTour()
   return (
     <div className="dashboard__component ">
-                {/* <div class="svg__doodle"><img src={svgDoodle} alt='logo' data-aos="flip-right"/></div> */}
       <div className="dash__timeline">
         <div className="dash__profile--img" onClick={() => setIsOpen(true)}>
-        {/* <div className="svg">
-            <img src={svgDoodle} alt='logo'/>
-            </div> */}
+        
+        <div className="indicator">
+            <div className="arrow"></div>
+            </div>
           <div class="image__circle" data-aos="flip-right"
           data-aos-delay="2000">
             
