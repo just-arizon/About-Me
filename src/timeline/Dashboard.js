@@ -1,18 +1,19 @@
 import React from "react";
 import "./Dashboard.css";
 import "./Scroller.css";
-
 import { Icon } from '@iconify/react';
+import { useTour } from '@reactour/tour'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
-function dashboard() {
+function Dashboard() {
+  const { setIsOpen } = useTour()
   return (
-    <div className="dashboard__component">
+    <div className="dashboard__component ">
                 {/* <div class="svg__doodle"><img src={svgDoodle} alt='logo' data-aos="flip-right"/></div> */}
-      <div className="dash__timeline">
-        <div className="dash__profile--img">
+      <div className="dash__timeline first-step">
+        <div className="dash__profile--img" onClick={() => setIsOpen(true)}>
         {/* <div className="svg">
             <img src={svgDoodle} alt='logo'/>
             </div> */}
@@ -67,4 +68,4 @@ function dashboard() {
   );
 }
 
-export default dashboard;
+export default Dashboard;

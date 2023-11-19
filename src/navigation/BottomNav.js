@@ -2,6 +2,7 @@ import React from 'react';
 import "./BottomNav.css";
 import { Icon } from '@iconify/react';
 import myLogo from '../images/Group 4.svg';
+import { useTour } from '@reactour/tour'
 function BottomNav() {
   return (
     <div className='bottomnav'>
@@ -27,7 +28,7 @@ function BottomNav() {
             </li>
          </ul>
       </div>
-      <div className='hamburger'>
+      <div className='hamburger second-step'>
         <Icon icon="solar:hamburger-menu-broken" className='hamburger__icon'/>
       </div>
     </div>
