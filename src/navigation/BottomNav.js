@@ -35,6 +35,11 @@ function BottomNav() {
              Certificate
               </a>
               </li>
+             <li className='submenu__item'>
+              <a href='https://twitter.com/just_Arizon' className='submenu__links'>
+             Resume
+              </a>
+              </li>
            </ul>
       </div>
     
