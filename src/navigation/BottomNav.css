@@ -30,7 +30,7 @@
     visibility: hidden;
     opacity: 0;
     transition: opacity .3s ease-in-out;
-    /* transform: translateY(-.4em); */
+    transform: translateY(-7.4em);
     
 }
 .open{
