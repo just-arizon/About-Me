@@ -30,7 +30,7 @@
     visibility: hidden;
     opacity: 0;
     transition: opacity .3s ease-in-out;
-    transform: translateY(-.4em);
+    /* transform: translateY(-.4em); */
     
 }
 .open{
@@ -47,7 +47,7 @@ ul.submenu__content{
     padding: 0.4em;
 }
 ul.submenu__content::-webkit-scrollbar{
-    height: 5px;
+    height: 8px;
     background-color: #231e23;
 }
 ul.submenu__content::-webkit-scrollbar-thumb{
