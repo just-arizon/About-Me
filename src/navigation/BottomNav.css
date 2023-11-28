@@ -47,7 +47,7 @@ ul.submenu__content{
     padding: 0.4em;
 }
 ul.submenu__content::-webkit-scrollbar{
-    height: 8px;
+    height: 4px;
     background-color: #231e23;
 }
 ul.submenu__content::-webkit-scrollbar-thumb{
