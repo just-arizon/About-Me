@@ -2,8 +2,7 @@ import React, {useState} from 'react';
 import "./BottomNav.css";
 import { Icon } from '@iconify/react';
 import myLogo from '../images/Group 4.svg';
-import { Outlet, Link } from "react-router-dom";
-
+import { useTour } from '@reactour/tour'
 function BottomNav() {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -15,27 +14,33 @@ function BottomNav() {
     <div className='bottomnav'>
 
      <div className={`submenu ${isMenuOpen ? 'open' : ''}`}>
-
-      <>
       <ul className='submenu__content'>
              <li className='submenu__item'>
-              <Link to="/projects">Projects</Link>
+              <a href='https://github.com/just-arizon' className='submenu__links'>
+              Project
+              </a>
               </li>
              <li className='submenu__item'>
-             <Link to="/about">About</Link>
+              <a href='https://www.linkedin.com/in/arinze-calistus/' className='submenu__links'>
+             About
+              </a>
               </li>
              <li className='submenu__item'>
-             <Link to="/experience">Experience</Link>
+              <a href='https://twitter.com/just_Arizon' className='submenu__links'>
+             Experience
+              </a>
               </li>
-          
              <li className='submenu__item'>
-             <Link to="/resume">Resume</Link>
+              <a href='https://twitter.com/just_Arizon' className='submenu__links'>
+             Certificate
+              </a>
+              </li>
+             <li className='submenu__item'>
+              <a href='https://twitter.com/just_Arizon' className='submenu__links'>
+             Resume
+              </a>
               </li>
            </ul>
-
-           <Outlet />
-      </>
-       
       </div>
     
        <div class="bottomNav__container">
@@ -70,4 +75,3 @@ function BottomNav() {
 }
 
 export default BottomNav;
-
