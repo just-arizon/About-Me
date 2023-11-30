@@ -60,10 +60,8 @@ function Dashboard() {
           </div>
         </div>
       </div>
-      {/* <div class="svg__doodle--2 ">
-        <img src={svgDoodle} alt='logo' data-aos="flip-left"/ >
-
-        </div> */}
+  
+        
     </div>
   );
 }

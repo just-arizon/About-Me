@@ -4,7 +4,6 @@ import { Icon } from '@iconify/react';
 import myLogo from '../images/Group 4.svg';
 import { Outlet, Link } from "react-router-dom";
 
-import { useTour } from '@reactour/tour'
 function BottomNav() {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -36,7 +35,7 @@ function BottomNav() {
 
            <Outlet />
       </>
-
+       
       </div>
     
        <div class="bottomNav__container">
