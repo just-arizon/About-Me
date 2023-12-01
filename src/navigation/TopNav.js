@@ -2,13 +2,17 @@ import React from 'react';
 import "./TopNav.css";
 import { Icon } from '@iconify/react';
 import myLogo from '../images/Group 4.svg';
+import { NavLink } from 'react-router-dom';
+
 
 function TopNavbar() {
   return (
     <div className='topnav'>
-      <div className='logo'>
-        <img src={myLogo} alt='logo'/>
-      </div>
+       <NavLink to="/">
+         <div className='logo third-step'>
+          <img src={myLogo} alt='logo'/>
+               </div>
+        </NavLink>
       <div className='topnav__buttons'>
          <ul className='topnav__wrapper'>
            <li className='topnav__item'>

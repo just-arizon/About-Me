@@ -2,7 +2,9 @@ import React, {useState} from 'react';
 import "./BottomNav.css";
 import { Icon } from '@iconify/react';
 import myLogo from '../images/Group 4.svg';
-import { useTour } from '@reactour/tour'
+import { useTour } from '@reactour/tour';
+import { NavLink } from 'react-router-dom';
+
 function BottomNav() {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -16,37 +18,29 @@ function BottomNav() {
      <div className={`submenu ${isMenuOpen ? 'open' : ''}`}>
       <ul className='submenu__content'>
              <li className='submenu__item'>
-              <a href='https://github.com/just-arizon' className='submenu__links'>
-              Project
-              </a>
+             <NavLink to="/projects">Projects</NavLink>
               </li>
              <li className='submenu__item'>
-              <a href='https://www.linkedin.com/in/arinze-calistus/' className='submenu__links'>
-             About
-              </a>
+             <NavLink to="/about">About</NavLink>
               </li>
              <li className='submenu__item'>
-              <a href='https://twitter.com/just_Arizon' className='submenu__links'>
-             Experience
-              </a>
+             <NavLink to="/experience">Experience</NavLink>
               </li>
              <li className='submenu__item'>
-              <a href='https://twitter.com/just_Arizon' className='submenu__links'>
-             Certificate
-              </a>
+             <NavLink to="/resume">Resume</NavLink>
               </li>
              <li className='submenu__item'>
-              <a href='https://twitter.com/just_Arizon' className='submenu__links'>
-             Resume
-              </a>
+             <NavLink to="/contact">Contact</NavLink>
               </li>
            </ul>
       </div>
     
        <div class="bottomNav__container">
+       <NavLink to="/">
          <div className='logo third-step'>
           <img src={myLogo} alt='logo'/>
                </div>
+        </NavLink>
                <div className='bottomnav__buttons'>
            <ul className='bottomnav__wrapper fourth-step'>
              <li className='bottomnav__item'>

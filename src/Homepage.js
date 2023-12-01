@@ -9,7 +9,7 @@ import Swiper from "./timeline/Swiper";
 function Homepage() {
   return (
       <div className="homepage">
-        <TopNav />   
+        <TopNav />
             <Dashboard />
             <Swiper />
         <BottomNav />
