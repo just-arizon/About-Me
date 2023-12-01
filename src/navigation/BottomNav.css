@@ -1,6 +1,6 @@
 .bottomnav{
     overflow: hidden;
-}
+    }
 .bottomNav__container{
     width: 100%;
     display: flex;
@@ -44,7 +44,8 @@ ul.submenu__content{
     background-color: #231e23;
     z-index: 1000;
     overflow-x: scroll;
-    padding: 0.4em;
+    padding: 0.3em;
+   
 }
 ul.submenu__content::-webkit-scrollbar{
     height: 4px;
@@ -69,6 +70,16 @@ li.submenu__item{
     margin: .4em;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.125);
+    /* transform: translateX(-550px); */
+    /* animation: bounce-in 2s ease-in linear 5s; */
+}
+@keyframes bounce-in-left {
+    from{
+        transform: translateX(-550px);
+    }
+    to{
+        transform: translateX(0);
+    }
 }
 .nav-icon{
     font-size: 1.5625em;
