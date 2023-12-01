@@ -4,6 +4,7 @@ import { Icon } from '@iconify/react';
 import myLogo from '../images/Group 4.svg';
 import { useTour } from '@reactour/tour';
 import { NavLink } from 'react-router-dom';
+import 'animate.css';
 
 function BottomNav() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ function BottomNav() {
     <div className='bottomnav'>
 
      <div className={`submenu ${isMenuOpen ? 'open' : ''}`}>
-      <ul className='submenu__content'>
+      <ul className='submenu__content animate__bounceInLeft'>
              <li className='submenu__item'>
              <NavLink to="/projects">Projects</NavLink>
               </li>
