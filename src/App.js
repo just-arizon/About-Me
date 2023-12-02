@@ -15,7 +15,7 @@ import Experience from "./pages/Experience";
 function App() {
   return (
   <BrowserRouter>
-  {/* <TopNav /> */}
+  <TopNav />
     <Routes>
           <Route index element={<Homepage />} />
           <Route path="projects" element={<Projects />} />

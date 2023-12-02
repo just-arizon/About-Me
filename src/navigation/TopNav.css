@@ -1,4 +1,4 @@
-.topnav{
+.topnav .main__menu{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -36,6 +36,22 @@ li.topnav__item{
     cursor: pointer;
 }
 
+.submenu{
+    position: absolute;
+    top: 2.5rem;
+    width: 100%;
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    
+}
+ul.submenu__content{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+
+}
 /* Mobile Responsiveness */
 @media(max-width: 480px){
   .topnav{

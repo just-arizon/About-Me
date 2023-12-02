@@ -5,7 +5,6 @@ import TopNav from "../navigation/TopNav";
 function Projects() {
   return (
     <div className="project__container">
-        <TopNav />
       <h1>
        Projects
       </h1>

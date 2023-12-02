@@ -4,7 +4,6 @@ import TopNav from "../navigation/TopNav";
 function Resume() {
   return (
     <div>
-        <TopNav />
       <h1>
        Resume
       </h1>
