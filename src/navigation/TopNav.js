@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import "./TopNav.css";
-import "./BottomNav.css";
+// import "./BottomNav.css";
 import { Icon } from '@iconify/react';
 import myLogo from '../images/Group 4.svg';
 import { NavLink } from 'react-router-dom';
@@ -47,7 +47,7 @@ function TopNavbar() {
        </div>
 
      
-       <div className={`submenu ${isMenuOpen ? 'open' : ''}`}>
+       <div className={`top__submenu ${isMenuOpen ? 'open' : ''}`}>
       <ul className='submenu__content animate__bounceInLeft'>
              <li className='submenu__item'>
              <NavLink to="/projects">Projects</NavLink>

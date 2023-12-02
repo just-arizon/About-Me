@@ -36,7 +36,7 @@ li.topnav__item{
     cursor: pointer;
 }
 
-.submenu{
+.top__submenu{
     position: absolute;
     top: 2.5rem;
     width: 100%;
