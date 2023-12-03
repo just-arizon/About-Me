@@ -64,13 +64,17 @@ a {
   list-style: none;
   text-decoration: none;
   color: #fff;
+  align-self: center;
 }
 li.submenu__item {
   padding: 0.3em;
-  margin: 0.4em;
+  margin: 0.25em;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.125);
   font-size: .9rem;
+}
+li.submenu__item:hover {
+  background-color: rgba(255, 255, 255, 0.125);
 }
 @keyframes bounce-in-left {
   from {

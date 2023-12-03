@@ -50,7 +50,13 @@ ul.top__submenu__content{
     display: flex;
     justify-content: center; 
     padding-top: 0.5em;
-
+}
+/* ul.top__submenu__content li.submenu__item {
+  margin: 0.4em;
+} */
+.openbar{
+    visibility: visible;
+    opacity: 1;
 }
 /* Mobile Responsiveness */
 @media(max-width: 480px){
