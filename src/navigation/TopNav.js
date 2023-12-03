@@ -48,7 +48,7 @@ function TopNavbar() {
 
      
        <div className={`top__submenu ${isMenuOpen ? 'open' : ''}`}>
-      <ul className='submenu__content animate__bounceInLeft'>
+      <ul className='top__submenu__content animate__bounceInLeft'>
              <li className='submenu__item'>
              <NavLink to="/projects">Projects</NavLink>
               </li>

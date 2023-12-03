@@ -46,9 +46,9 @@ li.topnav__item{
     transition: opacity .3s ease-in-out;
     
 }
-ul.submenu__content{
+ul.top__submenu__content{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     padding-top: 0.5em;
 
 }

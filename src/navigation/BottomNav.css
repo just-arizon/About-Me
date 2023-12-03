@@ -1,125 +1,129 @@
-.bottomnav{
-    overflow: hidden;
-    }
-.bottomNav__container{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1em 2.5em;
-    position: fixed;
-    bottom: 0;
-    z-index: 1500;
-    transition: transform 0.9s ease-out;
-    border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-  background-color: #231e23
+.bottomnav {
+  overflow: hidden;
 }
-.logo{
-    /* display: flex;
+.bottomNav__container {
+  width: 100%;
+  height: 3rem;
+  position: fixed;
+  bottom: 0;
+  z-index: 1500;
+  transition: height 0.9s ease-out;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: #231e23;
+  padding: .9em 2.5em;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  /* display: flex;
     align-items: center; */
 }
-.logo img{
-    width: 1.6em;
-    height: auto;
+.logo img {
+  width: 1.6em;
+  height: auto;
 }
-.submenu{
-    position: absolute;
-    bottom: 3.5rem;
-    width: 100%;
-    z-index: 1000;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    
+.submenu {
+  position: absolute;
+  /* bottom: 3.5rem; */
+  width: 100%;
+  z-index: 1000;
+  /* visibility: hidden;
+  opacity: 0; */
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  padding: 0.2em 0;
 }
-.open{
-    opacity: 1;
-    visibility: visible;
+.open {
+  /* opacity: 1;
+  visibility: visible; */
+  height: 6rem;
 }
-ul.submenu__content{
-    display: flex;
-    flex-direction: row;
-    border-radius: 10px;
-    background-color: #231e23;
-    z-index: 1000;
-    overflow-x: scroll;
-    padding: 0.3em;
-   
+ul.submenu__content {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  background-color: #231e23;
+  z-index: 1000;
+  overflow-x: scroll;
+  /* padding: 0.3em; */
 }
-ul.submenu__content::-webkit-scrollbar{
-    height: 4px;
-    background-color: #231e23;
+ul.submenu__content::-webkit-scrollbar {
+  height: 4px;
+  background-color: #231e23;
 }
-ul.submenu__content::-webkit-scrollbar-thumb{
-    background-color: #00d8ca;
+ul.submenu__content::-webkit-scrollbar-thumb {
+  background-color: #00d8ca;
 }
-ul.bottomnav__wrapper{
-    display: flex;
-    justify-content: space-between;
+ul.bottomnav__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 li.bottomnav__item,
 li.submenu__item,
-a{
-    list-style: none;
-    text-decoration: none;
-    color: #fff;
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
 }
-li.submenu__item{
-    padding: .3em;
-    margin: .4em;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.125);
-    /* transform: translateX(-550px); */
-    /* animation: bounce-in 2s ease-in linear 5s; */
+li.submenu__item {
+  padding: 0.3em;
+  margin: 0.4em;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.125);
+  /* transform: translateX(-550px); */
+  /* animation: bounce-in 2s ease-in linear 5s; */
 }
 @keyframes bounce-in-left {
-    from{
-        transform: translateX(-550px);
-    }
-    to{
-        transform: translateX(0);
-    }
+  from {
+    transform: translateX(-550px);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
-.nav-icon{
-    font-size: 1.5625em;
-    color: #fff;
-    margin: 0 1.3em;
+.nav-icon {
+  font-size: 1.5625em;
+  color: #fff;
+  margin: 0 1.3em;
 }
-.hamburger__icon{
-    color: #fff;
-    font-size: 1.5625em;
-    font-weight: bold;
+.hamburger__icon {
+  color: #fff;
+  font-size: 1.5625em;
+  font-weight: bold;
 }
 .nav-icon,
-.hamburger__icon
-,.logo img:hover,
-.submenu__item{
-    cursor: pointer;
+.hamburger__icon,
+.logo img:hover,
+.submenu__item {
+  cursor: pointer;
 }
 
 /* Mobile Responsiveness */
-@media(min-width: 480px){
-  .bottomnav{
+@media (min-width: 480px) {
+  .bottomnav {
     display: none;
   }
 }
-@media(max-width: 480px){
-    .logo{
-        
-    }
-    .logo img{
-        width: 1.5em;
-        height: auto;
-    }
-    .bottomNav__container{
-        padding: .8em .5em;
-      }
-    .nav-icon{
-        font-size: 1.3em;
-        margin: .6em;
-    }
-    .hamburger__icon{
-        font-size: 1.3em;
-    }
+@media (max-width: 480px) {
+  .logo {
+  }
+  .logo img {
+    width: 1.5em;
+    height: auto;
+  }
+  .bottomNav__container {
+    padding: 0.8em 0.5em;
+  }
+  .nav-icon {
+    font-size: 1.3em;
+    margin: 0.6em;
+  }
+  .hamburger__icon {
+    font-size: 1.3em;
+  }
 }
