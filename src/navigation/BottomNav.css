@@ -7,7 +7,7 @@
   position: fixed;
   bottom: 0;
   z-index: 1500;
-  transition: height 0.9s ease-out;
+  transition: height 0.3s ease-in-out;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
   background-color: #231e23;
@@ -124,4 +124,9 @@ li.submenu__item:hover {
   .hamburger__icon {
     font-size: 1.3em;
   }
+}
+@media (max-width: 360px){
+    .submenu {
+        justify-content: flex-start;
+      }
 }
