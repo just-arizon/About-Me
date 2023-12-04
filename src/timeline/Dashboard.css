@@ -79,7 +79,8 @@ p > span{
 }
 
 
-.iconify.toolkits {
+.iconify.toolkits
+{
     font-size: 25px;
     margin: .3em;
     color: #ddd;
@@ -92,8 +93,13 @@ p > span{
     outline: none;
     border-radius: 5px;
     border: none;
-    background: #231e23;
+    /* background: #231e23; */
     box-shadow: 0 5px #00d8c9;
+  }
+  .next {
+    fill: #ddd;
+    font-weight: bold;
+
   }
   .iconify.toolkits:hover {
     box-shadow: 0 3px #fffbfa;

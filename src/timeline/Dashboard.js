@@ -35,22 +35,22 @@ function Dashboard() {
 <div className="scroller"  data-speed="fast">
   <ul class="tag-list scrooler__inner">
     <li className="iconify toolkits">
-    <Icon icon="material-symbols:javascript-rounded" />
+    <Icon icon="logos:javascript" color="#ddd" width="25" height="25" />
     </li>
     <li className="iconify toolkits">
-    <Icon icon="ion:logo-sass" />
+    <Icon icon="devicon:tailwindcss" color="#ddd" width="25" height="25" />
     </li>
     <li className="iconify toolkits">
-    <Icon icon="tabler:brand-bootstrap" />
+    <Icon icon="logos:firebase" color="#ddd" width="25" height="25" />
     </li>
     <li className="iconify toolkits">
-    <Icon icon="cib:react" />
+    <Icon icon="logos:react" color="#ddd" width="25" height="25" />
     </li>
     <li className="iconify toolkits">
-    <Icon icon="ic:outline-css" />
+    <Icon icon="tabler:brand-typescript" color="#ddd" width="25" height="25" />
     </li>
     <li className="iconify toolkits">
-    <Icon icon="ph:file-html-fill" />
+    <Icon icon="logos:nextjs" width="25" height="25" className="next"/>
     </li>
     {/* <li className="iconify toolkits">
     <Icon icon="cib:react" />

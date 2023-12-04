@@ -41,8 +41,8 @@ li.topnav__item{
     top: 2.5rem;
     width: 100%;
     z-index: 1000;
-    visibility: hidden;
-    opacity: 0;
+    visibility: visible;
+    opacity: 1;
     transition: opacity .3s ease-in-out;
     
 }
@@ -55,8 +55,8 @@ ul.top__submenu__content{
   margin: 0.4em;
 } */
 .openbar{
-    visibility: visible;
-    opacity: 1;
+    visibility: hidden;
+    opacity: 0;
 }
 /* Mobile Responsiveness */
 @media(max-width: 480px){
