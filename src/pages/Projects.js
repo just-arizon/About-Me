@@ -4,7 +4,7 @@ import TopNav from "../navigation/TopNav";
 
 function Projects() {
  // Replace this with the actual number of cards
- const numberOfCards = 3; // For example, if you have 3 cards
+ const numberOfCards = 6; // For example, if you have 3 cards
 
  const initialCardStates = Array.from({ length: numberOfCards }, () => '');
 
@@ -32,7 +32,7 @@ function Projects() {
 
   return (
 
-    <div>
+    <div className='project__container'>
     <h1>Projects</h1>
 
       <div className="cards__container">
