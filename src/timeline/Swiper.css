@@ -8,7 +8,7 @@ body {
 
 .swiper {
   width: 100%;
-  padding-top: 70px;
+  padding-top: 50px;
   max-width: 600px;
   overflow: hidden;
   -webkit-mask: linear-gradient(
@@ -101,4 +101,9 @@ body {
    .green {
     background-color: #00ca4e;
    }
+   @media (max-width: 380px) {
+    .swiper {
+      padding-top: 20px;
+    }
+  }
    
