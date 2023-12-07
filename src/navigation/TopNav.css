@@ -4,6 +4,8 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 1em 2.5em;
+  background: rgb(35, 30, 35);
+
 }
 .logo{
     display: flex;
