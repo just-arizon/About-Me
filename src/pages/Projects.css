@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 .project__container{
     width: 100%;
-    height: 150svh;
+    /* height: 150svh; */
     background: rgb(35, 30, 35);
     background: linear-gradient(
       180deg,
