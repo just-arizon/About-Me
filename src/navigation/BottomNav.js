@@ -17,7 +17,7 @@ function BottomNav() {
     <div className='bottomnav'>
 
     
-       <div class={`bottomNav__container ${isMenuOpen ? 'open' : ''}`}>
+       <div className={`bottomNav__container ${isMenuOpen ? 'open' : ''}`}>
        <div className="container">
          <NavLink to="/">
            <div className='logo third-step'>
