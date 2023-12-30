@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 
@@ -89,13 +89,14 @@ h1{
    .card__description,
    .card__stacks{
     color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Questrial', sans-serif;
     text-align: center;
    }
    .card__title{
     font-weight: 600;
     font-size: .78em;
     color: #00d8c9;
+    font-family: 'Poppins', sans-serif;
    }
    .card__description{
     font-weight: 300;

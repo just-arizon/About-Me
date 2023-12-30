@@ -2,11 +2,12 @@
   @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 h1{
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Questrial', sans-serif;
     color: #00d8c9;
     font-size: 1.5em;
     padding: 1em 0 .6em;
     text-align: center;
-    /* margin-top: .9em; */
+    font-weight: 700;
+    margin-bottom: .9em;
 
 }

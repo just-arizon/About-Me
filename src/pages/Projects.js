@@ -5,6 +5,7 @@ import TopNav from "../navigation/TopNav";
 
 import projectImage1 from '../images/IMG_20231228_225134_122.jpg'; 
 import projectImage2 from '../images/IMG_20231228_222158_309.jpg'; 
+import projectImage3 from '../images/IMG_20231228_223831_137.jpg'; 
 
 
 function Projects() {
@@ -38,8 +39,8 @@ function Projects() {
      
    },
    {
-     image: projectImage1,
-     title: 'Project 2',
+     image: projectImage3,
+     title: 'Luxury Mall',
      description: 'Description for Project 2 is a project filled with so much inspirations.',
      stacksUsed: 'React, Node.js, MongoDB',
      
@@ -59,8 +60,8 @@ function Projects() {
      
    },
    {
-     image: projectImage1,
-     title: 'Project 2',
+     image: projectImage3,
+     title: 'Luxury Mall',
      description: 'Description for Project 2 is a project filled with so much inspirations.',
      stacksUsed: 'React, Node.js, MongoDB',
      
