@@ -94,7 +94,7 @@ h1{
    }
    .card__title{
     font-weight: 600;
-    font-size: .78em;
+    font-size: .6em;
     color: #00d8c9;
     font-family: 'Poppins', sans-serif;
    }
@@ -143,7 +143,7 @@ h1{
 }
 
 .project_card.minimized h2 {
-  font-size: .8em; 
+  font-size: .7em; 
 }
 .project_card.minimized p {
   display: none;
@@ -190,5 +190,8 @@ h1{
 @media screen and (max-width: 480px){
   .project__container{
     padding: 1em;
+  }
+  .card__title{
+    font-size: .6em;
   }
 }
