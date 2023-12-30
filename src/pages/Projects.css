@@ -12,6 +12,7 @@
       #252525 50%,
       #00d8c9 100%
     );
+    padding: 1em 2.5em;
   }
 h1{
     font-family: 'Satisfy', sans-serif;
@@ -24,12 +25,13 @@ h1{
 .cards__container{
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem;
-    gap: 1rem;
+    padding: .4rem;
+    gap: .7rem;
 }
 .project_card {
     width: 320px;
-    height: 354px;
+    /* height: 360px; */
+    padding-bottom: 1.5rem;
     margin: 0 auto;
     background-color: #011522;
     border-radius: 8px;
@@ -79,8 +81,9 @@ h1{
    }
    
    .card__img{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: auto;
+    display: block;
    }
    .card__title,
    .card__description,
@@ -91,15 +94,18 @@ h1{
    }
    .card__title{
     font-weight: 600;
-    font-size: 1em;
+    font-size: .78em;
+    color: #00d8c9;
    }
    .card__description{
     font-weight: 300;
-    font-size: .7em;
+    font-size: .6em;
+    padding: .2em 1em;
+    color: #fff;
    }
    .card__stacks{
     font-weight: 600;
-    font-size: .7em;
+    font-size: .6em;
    }
 
    /* Projects.css */
@@ -110,14 +116,18 @@ h1{
   flex-direction: column;
   align-items: center;
   text-align: center;
+  gap: .8rem;
 }
 
 .project_card.minimized .card__content {
-  /* Styles when the yellow button is clicked (minimized state) */
-  /* display: none; */
+ padding: 0;
 }
 
 .project_card.none .card__content {
+  /* Styles when the red button is clicked (none state) */
+  display: none;
+}
+.project_card.minimized .project__btns {
   /* Styles when the red button is clicked (none state) */
   display: none;
 }
@@ -127,6 +137,10 @@ h1{
   max-width: 100%; 
 }
 
+.project_card.minimized{
+  height: 230px;
+}
+
 .project_card.minimized h2 {
   font-size: .8em; 
 }
@@ -134,10 +148,46 @@ h1{
   display: none;
 }
 .project_card.minimized img {
-  max-width: 100px; 
-  max-height: 100px; 
+  max-width: 130px; 
+  max-height: 130px; 
 }
 
 .project_card.none img {
   max-width: 50%; 
+}
+.project__btns{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .7em;
+  margin-top: .3em;
+}
+.project__btns button{
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #231e23;
+  box-shadow: 0 5px #00d8c9;
+  padding: .7em 2em;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.project__btns button:hover {
+  box-shadow: 0 3px #fffbfa;
+  top: 1px;
+  color: #00d8c9;
+}
+.project__btns button:active {
+  box-shadow: 0 0 #fffbfa;
+  top: 5px;
+}
+
+@media screen and (max-width: 480px){
+  .project__container{
+    padding: 1em;
+  }
 }

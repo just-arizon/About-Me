@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import "./Projects.css";
 import TopNav from "../navigation/TopNav";
-import productImage1 from '../images/product10.png'; 
-import productImage2 from '../images/product9.png'; 
+
+
+import projectImage1 from '../images/IMG_20231228_225134_122.jpg'; 
+import projectImage2 from '../images/IMG_20231228_222158_309.jpg'; 
+
 
 function Projects() {
- const numberOfCards = 2;
+ const numberOfCards = 6;
 
  const initialCardStates = Array.from({ length: numberOfCards }, () => ({
    content: {
@@ -21,16 +24,46 @@ function Projects() {
 
  const cardContent = [
    {
-     image: productImage1,
-     title: 'Project 1',
+     image: projectImage1,
+     title: 'Palmpay Clone',
      description: 'Description for Project 1 is a project filled with so much inspirations.',
      stacksUsed: 'React, Node.js, MongoDB',
+     
    },
    {
-     image: productImage2,
+     image: projectImage2,
+     title: 'Dynamic Menu',
+     description: 'Description for Project 2 is a project filled with so much inspirations.',
+     stacksUsed: 'React, Node.js, MongoDB',
+     
+   },
+   {
+     image: projectImage1,
      title: 'Project 2',
      description: 'Description for Project 2 is a project filled with so much inspirations.',
      stacksUsed: 'React, Node.js, MongoDB',
+     
+   },
+   {
+     image: projectImage1,
+     title: 'Project 2',
+     description: 'Description for Project 2 is a project filled with so much inspirations.',
+     stacksUsed: 'React, Node.js, MongoDB',
+     
+   },
+   {
+     image: projectImage2,
+     title: 'Project 2',
+     description: 'Description for Project 2 is a project filled with so much inspirations.',
+     stacksUsed: 'React, Node.js, MongoDB',
+     
+   },
+   {
+     image: projectImage1,
+     title: 'Project 2',
+     description: 'Description for Project 2 is a project filled with so much inspirations.',
+     stacksUsed: 'React, Node.js, MongoDB',
+     
    },
    // Add content for other cards...
  ];
@@ -79,6 +112,10 @@ function Projects() {
              <h2 className='card__title'>{cardContent[index].title}</h2>
              <p className='card__description'>{cardContent[index].description}</p>
              <p className='card__stacks'>Stacks Used: {cardContent[index].stacksUsed}</p>
+             <div className="project__btns">
+              <button>Preview</button>
+              <button>GitHub</button>
+             </div>
            </div>
          </div>
        ))}
